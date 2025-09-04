@@ -8,7 +8,8 @@ Aquatone is a tool for visual inspection of websites across a large amount of ho
 2. Download the [latest release](https://github.com/michenriksen/aquatone/releases/latest) of Aquatone for your operating system.
 3. Uncompress the zip file to a folder and move the folder `aquatone` to your desired location.
 4. You probably want to move it to a location in your `$PATH` for easier use.
-5. export PATH=/home/kali/aquatone/:$PATH
+5. sudo gedit .zshrc
+6. export PATH="$PATH:/home/kali/aquatone:/home/kali/.local/bin"
 
 ### Compiling the source code
 
