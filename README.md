@@ -6,7 +6,9 @@ Aquatone is a tool for visual inspection of websites across a large amount of ho
 
 1. Install [Google Chrome](https://www.google.com/chrome/) or [Chromium](https://www.chromium.org/getting-involved/download-chromium) browser -- **Note:** Google Chrome is currently giving unreliable results when running in *headless* mode, so it is recommended to install Chromium for the best results.
 2. Download the [latest release](https://github.com/michenriksen/aquatone/releases/latest) of Aquatone for your operating system.
-3. Uncompress the zip file and move the `aquatone` binary to your desired location. You probably want to move it to a location in your `$PATH` for easier use.
+3. Uncompress the zip file to a folder and move the folder `aquatone` to your desired location.
+4. You probably want to move it to a location in your `$PATH` for easier use.
+5. export PATH=/home/kali/aquatone/:$PATH
 
 ### Compiling the source code
 
